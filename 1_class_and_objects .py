@@ -6,6 +6,10 @@ class Car:
     def describe(self):
         return f"{self.brand} {self.model}"
 
+
+
 # OBJECT
 car1 = Car("Toyota", "Corolla")
+car2 = Car("maruti", "800")
 print(car1.describe())
+print(car2.describe())
