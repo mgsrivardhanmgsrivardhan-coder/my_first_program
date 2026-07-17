@@ -8,5 +8,7 @@ class Vehicle:
     def get_total(cls):
         return cls.total_vehicles
 
+          
+
 v1, v2 = Vehicle(), Vehicle()
 print(Vehicle.get_total())
